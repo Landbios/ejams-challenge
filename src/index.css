@@ -1,0 +1,1035 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Outfit:wght@400;700;900&family=Work+Sans:wght@300&display=swap');
+
+body{margin: 0px;}
+/* Header */
+
+.header{
+  margin: 0px;
+  background-color: #252F3D;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding-left: 7.9em;
+  padding-right: 7.9em;
+  gap: 7em;
+ 
+}
+
+.headnav{
+  display: flex;
+  gap: 0.5em;
+}
+
+.headtext{
+  font-family: Manrope;
+  font-size: 0.75em;
+  font-weight: 500;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
+  text-transform: uppercase;
+
+
+}
+
+
+
+/*Logo Section */
+
+.company-brands{
+  height: 96px;
+  padding-left: 7.9em;
+  padding-right: 7.9em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.allybrands{
+  display: flex;
+  gap:2em;
+}
+
+
+/*OrderMessage */
+
+.OrderMessage{
+  text-align: center;
+}
+
+.OrderAlert{
+  font-family: Manrope;
+  font-size: 48px;
+  font-weight: 400;
+  color: #000000;
+  margin: 0px;
+
+  letter-spacing: 0em;
+
+
+}
+
+.OrderDescript{
+  font-family: Manrope;
+font-size: 24px;
+font-weight: 400;
+
+letter-spacing: 0em;
+color: #4D5254;
+line-height: 24px;
+
+}
+
+
+
+/*Steps */
+
+.steps{
+  margin-top: 4em;
+  display: flex;
+  padding-left: 7.9em;
+  padding-right: 7.9em;
+  gap: 5rem;
+  align-items: center;
+}
+
+.step{
+  display: flex;
+  gap: 20px;
+
+}
+
+.step-text{
+  font-family: Manrope;
+font-size: 20px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+color: #000000;
+
+
+}
+
+.step-text-active{
+  font-family: Manrope;
+font-size: 20px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0em;
+color: #000000;
+
+}
+
+/* Main Buy Box */
+
+.MainBox{
+  padding: 40px;
+  background-color: #FAFAFA;
+  border-radius: 10px;
+  margin-right: 8em;
+  margin-left: 8em;
+  display: flex;
+  gap: 2.5em;
+ 
+}
+
+.ReviwAndStock{
+  display: flex;
+  gap: 1.5em;
+  margin-top: 2rem;
+}
+
+.prodImg{
+  width: 575px;
+  height: 620px;
+}
+
+.ShippingAndPayment{
+  padding: 8px 10px 8px 10px;
+  display: flex;
+  gap: 16px;
+  border: solid 1px #CFCFCF ;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 4px;
+  margin-top: 12px;
+}
+
+.ShippingAndPayment > p {
+  font-family: Manrope;
+  font-size: 12px;
+  font-weight: 400;
+  color: #4D5254;
+  margin: 0px;
+
+}
+
+.securityPay{
+  display: flex;
+  gap: 10px;
+}
+
+.securityPay >p {
+  font-family: Manrope;
+  font-size: 12px;
+  font-weight: 400;
+  color: #4D5254;
+  margin: 0px;
+}
+
+
+.OrderTitle{
+  margin: 0;
+  font-family: Manrope;
+font-size: 32px;
+font-weight: 400;
+line-height: 45px;
+letter-spacing: 0em;
+color: #000000;
+
+
+
+
+}
+
+
+
+.subtitleAndPrice{
+  display: flex;
+  justify-content: space-between;
+  height: 14px;
+  align-items: flex-start;
+  margin: 0px;
+  
+  
+}
+
+.ProductSubtitle > p{
+  font-family: Manrope;
+font-size: 20px;
+font-weight: 400;
+
+letter-spacing: 0em;
+color: #000000;
+margin: 0px;
+
+
+}
+
+.Price{
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 600;
+ 
+  letter-spacing: 0em;
+  color: #969696;
+  margin: 0;
+  text-decoration: line-through;
+
+
+}
+
+.Discount{
+  font-family: Manrope;
+  font-size: 22px;
+  font-weight: 600;
+
+  letter-spacing: 0em;
+  color: #2C7EF8;
+  margin: 0;
+
+
+}
+
+.PriceAndDiscount{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.ReviewStars{
+ 
+  width: 98px;
+  height: 18px;
+}
+
+.StockRadio{
+ display: none;
+}
+
+.StockRadioStyle{
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+ 
+  background-color: #E3EEFF;
+  padding: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.StockRadioStyle .CheckedRadio{
+  display: none;
+}
+
+.StockRadioStyle input:checked + .CheckedRadio{
+  background-color: #2C7EF8;
+  display: inline-block;
+  text-align: center;
+  width: 8.53px;
+  height: 8.53px;
+  border-radius: 50%;
+}
+
+
+.Pthumbnail{
+  width: 134px;
+  height: 134px;
+}
+
+.stockcont{
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.StockSelectorLabel{
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 22px;
+  letter-spacing: 0em;
+  color: #37465A;
+
+
+}
+
+.ProducDesc{
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  color: #4D5254;
+  margin-bottom: 0px;
+  margin-top: 0px;
+
+
+}
+
+.PriceAndDetails{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  height: 135px;
+}
+
+
+.ProductAttribute{
+  display: flex;
+  gap: 12px;
+}
+
+.ProductAttribute > p{
+ 
+
+font-family: Manrope;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+margin-top: 0px;
+margin-bottom: 0px;
+color: #4D5254;
+
+}
+
+.ProductAttribute > p > Span{
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.ProductAttributesCont{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 32px;
+}
+
+.DiscountBadget{
+  margin-top: 32px;
+  padding: 12px 16px 12px 16px;
+  border-radius: 10px;
+  display: flex;
+  gap: 16px;
+  background-color: #EDF3FD;
+  align-items: center;
+}
+
+.badgetText{
+  font-family: Manrope;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0px;
+text-align: left;
+color: #000000;
+margin: 0;
+}
+
+.badgetText > span{
+  color: #2C7EF8;
+}
+
+.BuyBtn{
+  margin-top: 32px;
+  border-radius: 50px;
+  padding:16px 64px 16px 64px;
+  background-color: #59AE43;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: Manrope;
+  font-weight: 700;
+  color: #FFFFFF;
+  border: none;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  cursor: pointer;
+  
+}
+
+
+.CancelText{
+  color: #F82C2C;
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 500;
+ text-transform: uppercase;
+  text-align: center;
+  margin: 0px;
+
+}
+
+.CancelCont{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.GuaranteeCont{
+  margin-top: 32px;
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.GuaranteeCont > p{
+  margin: 0px;
+  font-family: Manrope;
+font-size: 16px;
+font-weight: 400;
+color: #4D5254
+
+}
+
+.GuaranteeCont > p > span{
+  margin: 0px;
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 700;
+  color: #4D5254
+  
+}
+
+
+.BuyerImgAndRating{
+
+  display: flex;
+  gap: 13px;
+  
+}
+
+.NameAndVerified{
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.BuyerName{
+  margin-top: 0px;
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 700;
+  color: #333333;
+
+
+}
+
+.buyprofile{
+  width: 48px;
+  height: 48px;
+}
+
+.VerCustomer{
+  margin-top: 0px;
+  font-family: Manrope;
+  font-size: 12px;
+  font-weight: 400;
+  color: #5BB59A;
+
+
+}
+
+.buybox{
+  margin-top: 24px;
+  background: #FFFFFF;
+  padding: 24px;
+  border-radius: 10px;
+}
+
+.BuyerText{
+  margin-top: 18px;
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 400;
+  color: #4D5254;
+
+
+}
+
+.Highlight{
+  font-family: Manrope;
+font-size: 32px;
+font-weight: 600;
+line-height: 45px;
+letter-spacing: 0em;
+color: #2C7EF8;
+}
+
+/* -- Footer -- */
+
+.FooterCont{
+  height: 88px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #252F3D;
+  padding-left: 7.9em;
+  padding-right: 7.9em;
+  align-items: center;
+
+}
+
+.footertext{
+  color: #FFFFFF;
+  font-size: 1em;
+
+}
+
+.Footsecure{
+  display: flex;
+  gap:0.5em;
+}
+
+.Footcopyright{
+  display: flex;
+  gap: 1em;
+}
+
+.mobile-Slider{
+  display: none;
+}
+
+.MobileDesc{
+  display: none;
+}
+
+
+.mobile-steps{display: none;}
+
+@media (max-width:768px) {
+
+  .header{
+    display: none;
+
+  }
+
+  .headnav{
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mobile-Slider{
+    display: block;
+    text-align: center;
+    background-color: #252F3D;
+    padding: 10px 20px 10px 20px;
+   height: 20px;
+  }
+
+  .headtext{
+    margin: 0;
+  }
+
+  .react-multiple-carousel__arrow {
+    position: absolute;
+    outline: 0;
+    transition: all .5s;
+    border-radius: 35px;
+    z-index: 1000;
+    border: 0;
+    background: none;
+    min-width: 20px;
+    min-height: 20px;
+    opacity: 1;
+    cursor: pointer;
+  
+}
+
+.react-multiple-carousel__arrow:hover {
+  background: rgb(0 0 0 / 0%);
+}
+
+.react-multiple-carousel__arrow::before {
+  font-size: 12.5px;
+  color: #fff;
+  display: block;
+  font-family: revicons;
+  text-align: center;
+  z-index: 2;
+  position: relative;
+}
+
+.react-multiple-carousel__arrow--left {
+  left: 0%;
+}
+
+.react-multiple-carousel__arrow--right {
+  right: 0%;
+}
+
+.company-brands {
+ height: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.company-brands > img{
+  width: 106px;
+  height: 20px;
+}
+
+
+.steps{
+  display: none;
+}
+.mcafeeImg{
+  width: 44px;
+  height: 16px;
+}
+
+.nortnImg{
+  width: 41px;
+  height: 16px;
+}
+
+.OrderMessage{
+  padding-top: 50px;
+  background-color: #FAFAFA;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.OrderAlert {
+
+  font-size: 32px;
+
+}
+
+.OrderDescript {
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  color: #4D5254;
+  line-height: 24px;
+  margin-bottom: 0px;
+}
+
+.mobile-steps{
+  padding-top: 24px;
+  background-color: #FAFAFA;
+
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  padding: 24px 20px 0px 20px;
+  
+}
+
+.mobile-step >p{
+  margin: 0;
+  font-size: 12px;
+}
+
+.mobile-step{
+  display: block;
+  text-align: center;
+}
+
+.mobile-step > img{
+  width: 20px;
+  height: 20px;
+}
+
+.MainBox {
+  padding: 24px 20px 10px 20px;
+  background-color: #FAFAFA;
+  border-radius: 0px; 
+   margin-right: 0em; 
+   margin-left: 0em; 
+  display: block;
+ 
+}
+
+.prodImg{display: none;}
+
+.ImageAndReviw{
+  display: none;
+}
+
+.OrderTitle {
+  margin: 0;
+  font-family: Manrope;
+  font-size: 24px;
+  font-weight: 400;
+ 
+  text-align: center;
+  color: #000000;
+}
+
+.Highlight {
+  font-family: Manrope;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 45px;
+  letter-spacing: 0em;
+  color: #2C7EF8;
+}
+
+.ReviwAndStock {
+  display: flex;
+  gap: 16px;
+  margin-top: 24px;
+  height: 80px;
+  margin-bottom: 24px;
+}
+
+.ProductSubtitle > p {
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  color: #000000;
+  margin: 0px;
+}
+
+
+
+.Price {
+  font-family: Manrope;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0em;
+  color: #969696;
+  margin: 0;
+  text-decoration: line-through;
+}
+
+.Discount {
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0em;
+  color: #2C7EF8;
+  margin: 0;
+}
+
+.PriceAndDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  height: 135px;
+  width: 100%;
+}
+
+.ReviewStars {
+  margin-top: 5px;
+  width: 68px;
+  height: 12px;
+}
+
+.StockRadioStyle {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #E3EEFF;
+  padding: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.StockRadioStyle input:checked + .CheckedRadio {
+  background-color: #2C7EF8;
+  display: inline-block;
+  text-align: center;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+}
+
+.StockSelectorLabel {
+  font-family: Manrope;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 22px;
+  letter-spacing: 0em;
+  color: #37465A;
+}
+
+.Pthumbnail {
+  width: 80px;
+  height: 80px;
+}
+
+.ProducDesc{
+  display: none;
+}
+
+.MobileDesc{
+  display: block;
+  font-family: Manrope;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  color: #4D5254;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  text-align: center;
+}
+
+.ProductAttribute > img{
+  width: 16px;
+  height: 16px;
+}
+
+.ProductAttribute > p {
+  font-family: Manrope;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #4D5254;
+}
+
+.ProductAttribute > p > Span {
+  font-family: Manrope;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.ProductAttributesCont {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.ProductAttribute {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.DiscountBadget {
+  margin-top: 24px;
+  padding: 12px 16px 12px 16px;
+  border-radius: 10px;
+  display: flex;
+  gap: 16px;
+  background-color: #EDF3FD;
+  align-items: center;
+}
+
+.DiscountBadget > img{
+  width: 24px;
+  height: 24px;
+}
+
+.badgetText {
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #000000;
+  margin: 0;
+}
+
+.BuyBtn {
+  margin-top: 24px;
+  border-radius: 50px;
+  padding: 16px 64px 16px 64px;
+  background-color: #59AE43;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: Manrope;
+  font-weight: 700;
+  color: #FFFFFF;
+  border: none;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.hideonmobile{display: none;}
+
+.ShippingAndPayment {
+  padding: 8px 16px 8px 16px;
+  display: flex;
+  gap: 12px;
+  border: solid 1px #CFCFCF;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 4px;
+  margin-top: 12px;
+  flex-wrap: wrap;
+}
+
+.styleonmobile{
+  border-top: solid 1px #CFCFCF;
+  text-align: center;
+  width: 100%;
+  padding-top: 12px;
+}
+
+.CancelText {
+  color: #F82C2C;
+  font-family: Manrope;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0px;
+}
+.GuaranteeCont > img{
+  width: 48px;
+  height: 48px;
+
+}
+
+.GuaranteeCont > p {
+  margin: 0px;
+  font-family: Manrope;
+  font-size: 12px;
+  font-weight: 400;
+  color: #4D5254;
+}
+
+.GuaranteeCont > p > span {
+  margin: 0px;
+  font-family: Manrope;
+  font-size: 12px;
+  font-weight: 700;
+  color: #4D5254;
+}
+
+.GuaranteeCont {
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  margin-bottom: 50px;
+}
+
+.FooterCont {
+  
+  display: flex;
+  
+  background-color: #252F3D;
+ 
+  padding: 20px 30px 20px 30px;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+
+.Footsecure {
+  display: flex;
+  gap: 0.5em;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.Footsecure >img{
+  width: 13px;
+  height: 13px;
+}
+
+
+
+.footertext {
+    color: #FFFFFF;
+    font-size: 12px;
+    /* width: 100%; */
+}
+
+}
+
+
+@media (max-width:1400px) {
+
+  .subtitleAndPrice {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    align-items: flex-start;
+    margin: 0px;
+}
+
+.PriceAndDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  height: auto;
+}
+  
+}
